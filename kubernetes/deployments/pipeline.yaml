@@ -15,7 +15,7 @@ spec:
         app: pipeline
     spec:
       containers:
-      - image: gcr.io/hightowerlabs/pipeline
+      - image: gcr.io/amit-kub-proj/pipeline:ee661b4a1532503448cf2bb534e370b9edf4bdcc
         name: pipeline
         ports:
         - containerPort: 80
